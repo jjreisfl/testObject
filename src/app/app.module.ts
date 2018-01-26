@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { Object2arrayPipe } from './pipes/object2array.pipe';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Object2arrayPipe
   ],
   imports: [
     BrowserModule
